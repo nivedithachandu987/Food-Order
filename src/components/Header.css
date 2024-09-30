@@ -1,0 +1,126 @@
+/* General Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #121212; 
+  color: #fff; 
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f0a500; 
+  text-decoration: none;
+}
+
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style: none; 
+  gap: 20px; 
+  margin: 0; 
+}
+
+.nav-menu ul li a {
+  color: #fff; 
+  text-decoration: none; 
+  font-size: 16px; 
+}
+
+.nav-menu ul li a:hover,
+.nav-menu ul li a.order-now {
+  color: #f0a500; 
+  border-bottom: 2px solid #f0a500;
+}
+
+
+.search-container {
+  position: relative; 
+  display: flex;
+  align-items: center; 
+}
+
+.search-container input {
+  padding: 8px 12px 8px 40px;
+  border: none; 
+  border-radius: 4px; 
+  background-color: #333; 
+  color: #fff; 
+}
+
+.search-container .search-icon {
+  position: absolute; 
+  left: 12px; 
+}
+
+.search-container input:focus + .search-icon,
+.search-container input:hover + .search-icon {
+  color: #f0a500; 
+}
+
+.search-container input:focus {
+  border-color: #f0a500; 
+}
+
+
+.user-actions {
+  display: flex;
+  align-items: center; 
+}
+
+.login-btn {
+  background-color: #f0a500; 
+  color: #000; 
+  border: none; 
+  padding: 3px 9px; 
+  border-radius: 2px; 
+}
+
+.login-btn:hover {
+  background-color: #ffbf00; 
+}
+
+
+.hamburger {
+  display: none; 
+  font-size: 28px; 
+  cursor: pointer; 
+}
+
+
+@media (max-width: 768px) {
+  .nav-menu {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    transition: .3s ease-in-out;
+    z-index: -1; 
+    background-color: #121212; 
+    padding: 0.5rem 0; 
+    flex-direction: column; 
+  }
+
+  .nav-menu ul {
+    flex-direction: column; 
+    padding: 0; 
+  }
+
+  .nav-menu ul li {
+    padding: 10px 20px; 
+  }
+
+  .nav-menu.open {
+    z-index: 1; 
+    box-shadow: 0px -5px -10px rgba(0, 0, 0, 0.5); 
+  }
+
+  .hamburger { 
+    display: block; 
+  }
+}

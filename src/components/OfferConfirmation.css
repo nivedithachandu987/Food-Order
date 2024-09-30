@@ -1,0 +1,103 @@
+.offer-confirmation {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .discount-message {
+    color: #ff9800;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%; /* Make the search bar take full width */
+    max-width: 600px; /* Set a maximum width */
+    padding: 10px; /* Padding for the search input */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #f0a500; /* Gold border */
+    background-color: #1e1e1e; /* Dark background for search bar */
+    color: #fff; /* White text */
+    font-size: 16px; /* Font size for search input */
+    margin: 20px auto; /* Centering the search bar */
+    transition: background-color 0.3s; /* Transition for background change */
+  }
+  
+  .search-input:focus {
+    outline: none; /* Remove outline */
+    background-color: #2c2c2c; /* Darker background on focus */
+  }
+  
+  .dishes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dish-card {
+    background-color: #494848;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .dish-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .dish-info {
+    margin-top: 10px;
+  }
+  
+  .dish-info h3 {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  .dish-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+  }
+  
+  .order-now-button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .order-now-button:hover {
+    background-color: #e68a00;
+  }
+  
+  .go-back-button {
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .go-back-button:hover {
+    background-color: #444;
+  }
+  

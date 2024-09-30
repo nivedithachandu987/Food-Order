@@ -1,0 +1,231 @@
+/* Featured Restaurants Section */
+.featured-restaurants {
+  padding: 40px;
+  background-color: #121212; 
+  color: #000000; 
+}
+
+.featured-restaurants h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px; 
+  color: #f0a500;
+}
+
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 10px; 
+}
+
+
+.restaurant-card {
+  background-color: #333;
+  padding: 8px; 
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease; 
+}
+
+.restaurant-card:hover {
+  transform: scale(1.05); 
+}
+
+
+.restaurant-image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 8px; 
+}
+
+.restaurant-info h3 {
+  font-size: 20px; 
+  margin-bottom: 6px; 
+}
+
+.restaurant-info p {
+  font-size: 12px; 
+  margin: 5px 0;
+}
+.featured-restaurants h2{
+  text-align: center;
+  color: white;
+}
+
+.order-now-btn {
+  background-color: #f0a500;
+  color: #000;
+  padding: 5px 10px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px; 
+  margin-top: 6px; 
+  transition: background-color 0.3s ease; 
+}
+#featured-restaurants {
+  text-align: center; 
+}
+
+#featured-restaurants h2 {
+  margin: 0; 
+  padding: 20px 0; 
+  font-size: 2em; 
+}
+.order-now-btn:hover {
+  background-color: #ffbf00; 
+}
+#featured-restaurants {
+  padding: 20px;
+}
+
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 20px; 
+}
+
+.restaurant-card {
+  background-color: #2e2d2d;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.restaurant-card img {
+  width: 100%;
+  height: auto;
+}
+
+.restaurant-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.restaurant-info h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.restaurant-info p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.restaurant-card button {
+  background-color: #ff5722;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.restaurant-card button:hover {
+  background-color: #e64a19;
+}
+
+.order-summary {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary h3 {
+  margin-bottom: 15px;
+}
+
+.order-summary ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.order-summary ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.order-summary h4 {
+  margin-top: 15px;
+}
+
+.order-summary button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.order-summary button:disabled {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+
+@media (max-width: 768px) {
+  .featured-restaurants {
+    padding: 20px; 
+  }
+
+  .featured-restaurants h2 {
+    font-size: 28px; 
+  }
+
+  .restaurant-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  .restaurant-info h3 {
+    font-size: 18px; 
+  }
+
+  .order-now-btn {
+    font-size: 10px; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .restaurant-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  .featured-restaurants h2 {
+    font-size: 24px; 
+  }
+
+  .restaurant-info p {
+    font-size: 10px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

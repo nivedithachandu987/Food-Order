@@ -1,0 +1,32 @@
+/* HowItWorks.css */
+.how-it-works {
+    padding: 50px 20px;
+    background-color: #1a1a1a; 
+    color: #fff;
+    text-align: center;
+  }
+  
+  .how-it-works h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .step {
+    flex: 1;
+    max-width: 300px; 
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .step img {
+    width: 80px; 
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  

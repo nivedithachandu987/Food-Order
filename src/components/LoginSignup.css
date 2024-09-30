@@ -1,0 +1,100 @@
+/* src/components/LoginSignup.css */
+
+.login-signup-container {
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #2a2a2a; /* Dark input background */
+    color: #ffffff; /* White text in inputs */
+  }
+  
+  input::placeholder {
+    color: #888; /* Placeholder text color */
+  }
+  
+  .submit-btn {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .toggle-form-text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .toggle-form-link {
+    color: #007bff; /* Link color */
+    cursor: pointer;
+  }
+  
+  .forgot-password-link {
+    display: block;
+    text-align: right;
+    color: #007bff; /* Link color */
+  }
+  
+  .social-login {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-btn {
+    background-color: #444; /* Dark button background */
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .social-btn:hover {
+    background-color: #555; /* Slightly lighter on hover */
+  }
+  
+  .terms-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  .terms-link, .privacy-link {
+    color: #007bff; /* Link color */
+  }
+  

@@ -1,0 +1,112 @@
+/* Mexican Cuisine Section */
+.mexican-cuisine {
+  text-align: center;
+  padding: 40px; 
+  background-color: #121212; 
+  color: #fff; 
+}
+
+.mexican-cuisine h1 {
+  margin-bottom: 20px;
+  font-size: 32px; 
+  color: #ff5733;
+}
+
+.dish-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.dish-card {
+  background-color: #1e1e1e; 
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px; 
+  transition: transform 0.3s; 
+}
+
+.dish-card:hover {
+  transform: scale(1.05); 
+}
+
+.dish-card img {
+  width: 100%; 
+  border-radius: 8px;
+}
+
+/* Search Bar Style */
+.search-bar {
+  width: 100%; 
+  max-width: 600px; 
+  padding: 10px; 
+  border-radius: 5px; 
+  border: 1px solid #ff5733; 
+  background-color: #1e1e1e; 
+  color: #fff; 
+  font-size: 16px;
+  margin: 20px auto; 
+  transition: background-color 0.3s; 
+}
+
+.search-bar:focus {
+  outline: none; 
+  background-color: #2c2c2c; 
+}
+
+
+.order-now {
+  background-color: #ff5733; 
+  color: #121212; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s; 
+}
+
+.order-now:hover {
+  background-color: #d44c2e; 
+}
+
+
+.order-summary {
+  margin-top: 40px; 
+  background-color: #1e1e1e; 
+  border-radius: 8px; 
+  padding: 20px; 
+  color: #fff; 
+}
+
+.order-summary h2 {
+  margin-bottom: 15px; 
+  color: #ff5733; 
+}
+
+.order-summary ul {
+  list-style-type: none; 
+  padding: 0;
+}
+
+.order-summary li {
+  display: flex; 
+  justify-content: space-between; 
+  margin: 10px 0; 
+}
+
+.order-summary button {
+  background-color: #ff5733; 
+  color: #121212; 
+  border: none;
+  padding: 5px 10px; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+.order-summary button:hover {
+  background-color: #d44c2e; 
+}

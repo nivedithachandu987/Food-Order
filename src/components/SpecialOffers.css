@@ -1,0 +1,42 @@
+/* src/components/SpecialOffers.css */
+.special-offers {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    background-image: url('https://example.com/food-banner.jpg'); /* Replace with a relevant image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.offers-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.offers-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.offers-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    background-color: #f0a500;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #d48900;
+}
